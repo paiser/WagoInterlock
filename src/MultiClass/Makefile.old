@@ -59,19 +59,19 @@ OUTPUT_DIR = ./bin/$(BIN_DIR)
 #
 WAGOINTERLOCK_CLASS = WagoInterlock
 #WAGOINTERLOCK_HOME  = /segfs/tango/cppserver/instrumentation/WagoInterlock
-WAGOINTERLOCK_HOME  = /home/paiser/WAGO/DS//WagoInterlock
+WAGOINTERLOCK_HOME  = /home/paiser/EP//WagoInterlock
 
 WAGO_CLASS = Wago
 #WAGO_HOME  = /segfs/tango/cppserver/instrumentation/Wago
-WAGO_HOME  = /home/paiser/WAGO/DS/Wago
+WAGO_HOME  = /home/paiser/EP/Wago
 
 MODBUS_CLASS = Modbus
 #MODBUS_HOME  = /segfs/tango/cppserver/protocols/Modbus/src
-MODBUS_HOME  = /home/paiser/WAGO/DS/Modbus/src
+MODBUS_HOME  = /home/paiser/EP/Modbus/src
 
 SERIAL_CLASS = Serial
 #SERIAL_HOME  = /segfs/tango/cppserver/protocols/SerialLine/src
-SERIAL_HOME  = /home/paiser/WAGO/DS/SerialLine/tags/latest/src
+SERIAL_HOME  = /home/paiser/EP/SerialLine/tags/latest/src
 
 #=============================================================================
 # INC_DIR_USER is the list of all include path needed by your sources

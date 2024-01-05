@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <pogoDsl:PogoSystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:pogoDsl="http://www.esrf.fr/tango/pogo/PogoDsl">
-  <multiClasses pogoRevision="9.8" name="WagoInterlockComplete" sourcePath="/home/paiser/WAGO/DS/WagoInterlock/trunk/src/MultiClass" description="Tango server for interlock devices based on wago 750 series controllers.&#xA;Modbus and Wago classes are included within this package." filestogenerate="XMI   file,Code files,Makefile,CMakeLists,Protected Regions">
+  <multiClasses pogoRevision="9.8" name="WagoInterlockComplete" sourcePath="/home/paiser/EP/WagoInterlock/trunk/src/MultiClass" description="Tango server for interlock devices based on wago 750 series controllers.&#xA;Modbus and Wago classes are included within this package." filestogenerate="XMI   file,Code files,Makefile,CMakeLists,Protected Regions">
     <classes classname="WagoInterlock" sourcePath="..">
       <inheritances classname="Device_Impl" sourcePath=""/>
     </classes>
@@ -9,8 +9,8 @@
     </classes>
     <classes classname="Modbus" sourcePath="../../../../Modbus/src">
       <inheritances classname="Device_Impl" sourcePath=""/>
-      <additionalFiles name="ModbusCore" path="/home/paiser/WAGO/DS/Modbus/src/ModbusCore.cpp"/>
-      <additionalFiles name="CacheThread" path="/home/paiser/WAGO/DS/Modbus/src/CacheThread.cpp"/>
+      <additionalFiles name="ModbusCore" path="/home/paiser/EP/Modbus/src/ModbusCore.cpp"/>
+      <additionalFiles name="CacheThread" path="/home/paiser/EP/Modbus/src/CacheThread.cpp"/>
     </classes>
     <classes classname="Serial" sourcePath="../../../../SerialLine/tags/latest/src">
       <inheritances classname="Device_4Impl" sourcePath=""/>
